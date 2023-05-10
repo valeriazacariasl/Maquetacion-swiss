@@ -1,0 +1,53 @@
+
+section .container-news {
+  margin: 0 0 35px 0;
+}
+
+.container-news {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.newsletter-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.newsletter-title p {
+  margin: 10px 0 0;
+}
+
+.newsletter form {
+  flex-shrink: 0;
+}
+
+.newsletter form input[type="email"],
+.newsletter form button[type="submit"] {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.newsletter form input[type="email"] {
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+.newsletter form button[type="submit"] {
+  background-color: #ddd7aa;
+  color: #fff;
+  cursor: pointer;
+}

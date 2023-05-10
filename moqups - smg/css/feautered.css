@@ -1,0 +1,35 @@
+.feautered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 0;
+  }
+  
+.col-1 {
+    margin: 0 30px 0 30px;
+}
+
+.img2, .img4 {
+    margin: 0 0 10px 0;
+}
+
+.detalles {
+    display: flex;
+    
+}
+
+.detalles .info {
+    margin-right: 10px;
+}
+
+.detalles p {
+    margin: 0;
+}
+
+  .detalles .estrella {
+    margin: 0 0 0 150px; 
+  }
+
+  .detalles .estrella-der {
+    margin: 0 0 0 150px; 
+  }
